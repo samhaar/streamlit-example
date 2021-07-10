@@ -36,6 +36,9 @@ def app():
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
 
+"""
+Show the app
+"""
 show = st.checkbox('show app', False)
 if (show):
     app()
