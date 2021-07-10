@@ -37,7 +37,7 @@ def app():
         .encode(x='x:Q', y='y:Q'))
 
 """
-Show the app
+Show the app, yooooo
 """
 show = st.checkbox('show app', False)
 if (show):
